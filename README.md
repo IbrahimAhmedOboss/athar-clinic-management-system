@@ -3,7 +3,7 @@
 <img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot ATHAR CLINIC/logo.png" alt="Athar Clinic Logo" style="width:200px; margin-bottom:20px;"/>
 
 ---
-
+ 
 ## 1. وصف المشروع
 
 نظام إدارة متكامل لمراكز العلاج الطبيعي والتغذية العلاجية والتأهيل، تم تصميمه كـ **Progressive Web App (PWA)** ليتيح الوصول بدون اتصال بالإنترنت وإمكانية تثبيت التطبيق على شاشة الهاتف أو الكمبيوتر كتطبيق أصلي! يدعم النظام إدارة المرضى، حجز المواعيد، حسابات الأطباء الآلية (بقيمة 40% من دخلهم)، وإصدار تقرير مالي شهري تفصيلي قابل للتصدير إلى ملفات Excel بتنسيق احترافي.
