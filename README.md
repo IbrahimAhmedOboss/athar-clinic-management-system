@@ -1,6 +1,6 @@
 # 🩺 نظام إدارة مركز أثر (Athar Clinic Management System)
 
-<img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/public/logo.png" alt="Athar Clinic Logo" style="width:200px; margin-bottom:20px;"/>
+<img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot ATHAR CLINIC/logo.png" alt="Athar Clinic Logo" style="width:200px; margin-bottom:20px;"/>
 
 ---
 
@@ -102,7 +102,14 @@ graph TD
 ---
 
 ## 6. لقطات الشاشة والمعاينة الفنية (Screenshots & Showcase)
-
+<img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot ATHAR CLINIC/داشبورد دكتور" alt="Athar Clinic Logo" style="width:200px; margin-bottom:20px;"/>
+<img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot ATHAR CLINIC/logo.png" alt="Athar Clinic Logo" style="width:200px; margin-bottom:20px;"/>
+<img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot ATHAR CLINIC/logo.png" alt="Athar Clinic Logo" style="width:200px; margin-bottom:20px;"/>
+<img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot ATHAR CLINIC/logo.png" alt="Athar Clinic Logo" style="width:200px; margin-bottom:20px;"/>
+<img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot ATHAR CLINIC/logo.png" alt="Athar Clinic Logo" style="width:200px; margin-bottom:20px;"/>
+<img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot ATHAR CLINIC/logo.png" alt="Athar Clinic Logo" style="width:200px; margin-bottom:20px;"/>
+<img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot ATHAR CLINIC/logo.png" alt="Athar Clinic Logo" style="width:200px; margin-bottom:20px;"/>
+<img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot ATHAR CLINIC/logo.png" alt="Athar Clinic Logo" style="width:200px; margin-bottom:20px;"/>
 * **لوحة التحكم الرئيسية**: واجهات تفاعلية متطورة تعرض رسوماً بيانية ذكية للأرباح ومعدلات نمو أعداد المرضى شهرياً.
 * **ملفات المرضى**: صفحة متكاملة لإدارة السجلات الطبية، خطط العلاج الطبيعي، وتتبع المحفظة المالية والمدفوعات السابقة لكل حالة.
 * **شاشة المواعيد والمرشحات**: جدول مرن لتنظيم الزيارات اليومية مع إمكانية تبديل حالة الموعد ديناميكياً (انتظار ← جارٍ ← مكتمل).
