@@ -50,16 +50,59 @@
 ## 5. المخططات الهندسية وسير العمل (System Architecture Diagrams)
 
 ### 📊 مخطط سير عمل المريض (Patient Flow Diagram)
-<img src="patient_flow.png" alt="Patient Flow Diagram" style="width:100%; max-width:800px; margin:20px 0;"/>
+graph TD
+    A[حجز موعد] --> B[تسجيل وصول المريض]
+    B --> C[بدء الكشف]
+    C --> D{هل هو مريض جديد؟}
+    D -->|نعم| E[إنشاء ملف مريض جديد]
+    D -->|لا| F[فتح ملف المريض الحالي]
+    E --> G[إضافة خطة علاج]
+    F --> G
+    G --> H[تسجيل جلسة]
+    H --> I{هل يوجد روشتة تغذية؟}
+    I -->|نعم| J[طباعة روشتة التغذية]
+    I -->|لا| K[إنهاء الجلسة]
+    J --> K
+    K --> L{هل يوجد دفعة مالية؟}
+    L -->|نعم| M[تسجيل مدفوعة للطبيب المحدد]
+    L -->|لا| N[تحديث حالة الموعد إلى مكتمل]
+    M --> N
+
 
 ### 🔄 مخطط دورة حياة الموعد (Appointment Lifecycle Diagram)
-<img src="appointment_flow.png" alt="Appointment Flow Diagram" style="width:100%; max-width:800px; margin:20px 0;"/>
+stateDiagram-v2
+    [*] --> Pending: حجز موعد جديد
+    Pending --> InProgress: بدء الكشف (Admin/Doctor)
+    InProgress --> Completed: إنهاء الجلسة
+    Pending --> NoShow: لم يحضر المريض
+    Completed --> [*]
+    NoShow --> [*]
+
 
 ### 💰 مخطط منطق توزيع المال وحساب النسب (Financial Splitting Logic Diagram)
-<img src="financial_flow.png" alt="Financial Flow Diagram" style="width:100%; max-width:800px; margin:20px 0;"/>
+graph TD
+    A[إضافة مدفوعة من المريض] --> B{اختيار الطبيب المرتبط بالدفعة}
+    B --> C[إضافة المدفوعة إلى جدول المدفوعات]
+    C --> D[تحديث محفظة المريض]
+    D --> E[إضافة سجل نشاط]
+    E --> F[إعادة حساب إجمالي دخل الطبيب]
+    F --> G{دخل الطبيب = إيرادات يدوية + مدفوعات المرضى}
+    G --> H[حساب صافي ربح الطبيب = 40% × إجمالي الدخل]
+    H --> I[تحديث تقارير المالية الشهرية]
+    I --> J[تصدير التقرير إلى Excel عند الطلب]
+
 
 ### 🔐 مخطط الأدوار والتصاريح الأمنية (Roles and Authorization Diagram)
-<img src="roles_flow.png" alt="Roles Flow Diagram" style="width:100%; max-width:800px; margin:20px 0;"/>
+graph TD
+    A[تسجيل الدخول] --> B{نوع الحساب؟}
+    B -->|Admin| C[الوصول الكامل لجميع الصفحات]
+    B -->|Doctor| D[الوصول للمرضى والمواعيد والمالية والروشتات]
+    B -->|Receptionist| E[الوصول لحجز المواعيد وإضافة مرضى/مدفوعات]
+    B -->|Demo| F[وضع المعاينة التفاعلي - فقط قراءة + محاكاة محلية]
+    C --> G[إدارة المستخدمين + المصروفات + الإيرادات]
+    D --> H[تعديل خطط العلاج + طباعة روشتات]
+    E --> I[لا يمكن تعديل الأطباء أو التقارير المالية]
+    F --> J[لا يوجد اتصال بالخادم - جميع التغييرات محلية]
 
 ---
 
