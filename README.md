@@ -102,18 +102,17 @@ graph TD
 ## 6. لقطات الشاشة والمعاينة الفنية (Screenshots & Showcase)
 
 ---
-
 | 📊 لوحة تحكم الطبيب (Dashboard) | 🍎 نظام وتخطيط الروشتة الغذائية |
 | :---: | :---: |
-| ![Doctor Dashboard](https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot%20ATHAR%20CLINIC/%D8%AF%D8%A7%D8%B4%D8%A8%D9%88%D8%B1%D8%AF%20%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1.png) | ![Nutrition Plan](https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot%20ATHAR%20CLINIC/%D9%86%D8%B8%D8%A7%D9%85%20%D8%BA%D8%B0%D8%A7%D8%A6%D9%8I.png) |
+| ![Doctor Dashboard](screenShot%20ATHAR%20CLINIC/داشبورد%20الدكتور.png) | ![Nutrition Plan](screenShot%20ATHAR%20CLINIC/نظام%20غذائي.png) |
 
 | 📋 سجل وملف المريض التفصيلي | 👥 إدارة قائمة المرضى والحالات |
 | :---: | :---: |
-| ![Patient File](https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot%20ATHAR%20CLINIC/%D9%85%D9%84%D9%81%20%D8%A7%D9%84%D9%85%D8%B1%D9%8A%D8%B61.png) | ![Patients List](https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot%20ATHAR%20CLINIC/%D8%B5%D9%81%D8%AD%D9%87%20%D8%A7%D9%84%D9%85%D8%B1%D8%B6%D9%8I.png) |
+| ![Patient File](screenShot%20ATHAR%20CLINIC/ملف%20المريض1.png) | ![Patients List](screenShot%20ATHAR%20CLINIC/صفحه%20المرضي.png) |
 
 | ⚙️ إعدادات النظام المتقدمة (للطبيب فقط) |
 | :---: |
-| ![System Settings](https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot%20ATHAR%20CLINIC/%D8%A7%D8%B9%D8%AF%D8%A7%D8%AF%D8%A7%D8%AA%20%D8%A7%D9%84%D9%86%D8%B8%D8%A7%D9%85%20%D9%84%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D9%81%D9%82%D8%B7.png) |
+| ![System Settings](screenShot%20ATHAR%20CLINIC/اعدادات%20النظام%20للدكتور%20فقط.png) |
 
 ---
 
