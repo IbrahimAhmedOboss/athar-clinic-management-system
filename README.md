@@ -1,6 +1,6 @@
 # 🩺 نظام إدارة مركز أثر (Athar Clinic Management System)
 
-<img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot ATHAR CLINIC/logo.png" alt="Athar Clinic Logo" style="width:200px; margin-bottom:20px;"/>
+<img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot ATHAR CLINIC/logo.png" alt="Athar Clinic Logo" center style="width:200px; margin-bottom:20px;"/>
 
 ---
  
