@@ -99,50 +99,31 @@ graph TD
     I --> J[تصدير التقرير إلى Excel عند الطلب]
 ```
 ---
-
----## 6. لقطات الشاشة والمعاينة الفنية (Screenshots & Showcase)
+## 6. لقطات الشاشة والمعاينة الفنية (Screenshots & Showcase)
 
 ---
 
-<table width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <h3>📊 لوحة تحكم الطبيب (Dashboard)</h3>
-      <img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot%20ATHAR%20CLINIC/%D8%AF%D8%A7%D8%B4%D8%A8%D9%84%D9%85%D9%88%D8%B1%D8%AF%20%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1.png" alt="Doctor Dashboard" style="border-radius: 8px; border: 1px solid #30363d;"/>
-    </td>
-    <td width="50%" align="center">
-      <h3>🍎 نظام وتخطيط الروشتة الغذائية</h3>
-      <img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot%20ATHAR%20CLINIC/%D9%86%D8%B8%D8%A7%D9%85%20%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A.png" alt="Nutrition Plan" style="border-radius: 8px; border: 1px solid #30363d;"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <h3>📋 سجل وملف المريض التفصيلي</h3>
-      <img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot%20ATHAR%20CLINIC/%D9%85%D9%84%D9%81%20%D8%A7%D9%84%D9%85%D8%B1%D9%8A%D8%B61.png" alt="Patient File" style="border-radius: 8px; border: 1px solid #30363d;"/>
-    </td>
-    <td width="50%" align="center">
-      <h3>👥 إدارة قائمة المرضى والحالات</h3>
-      <img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot%20ATHAR%20CLINIC/%D8%B5%D9%81%D8%AD%D9%87%20%D8%A7%D9%84%D9%85%D8%B1%D8%B6%D9%8A.png" alt="Patients List" style="border-radius: 8px; border: 1px solid #30363d;"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="100%" colspan="2" align="center">
-      <h3>⚙️ إعدادات النظام المتقدمة (للطبيب فقط)</h3>
-      <img src="https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot%20ATHAR%20CLINIC/%D8%A7%D8%B9%D8%AF%D8%A7%D8%AF%D8%A7%D8%AA%20%D8%A7%D9%84%D9%86%D8%B8%D8%A7%D9%85%20%D9%84%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D9%81%D9%82%D8%B7.png" alt="System Settings" style="width: 80%; border-radius: 8px; border: 1px solid #30363d;"/>
-    </td>
-  </tr>
-</table>
+| 📊 لوحة تحكم الطبيب (Dashboard) | 🍎 نظام وتخطيط الروشتة الغذائية |
+| :---: | :---: |
+| ![Doctor Dashboard](https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot%20ATHAR%20CLINIC/%D8%AF%D8%A7%D8%B4%D8%A8%D9%88%D8%B1%D8%AF%20%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1.png) | ![Nutrition Plan](https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot%20ATHAR%20CLINIC/%D9%86%D8%B8%D8%A7%D9%85%20%D8%BA%D8%B0%D8%A7%D8%A6%D9%8I.png) |
+
+| 📋 سجل وملف المريض التفصيلي | 👥 إدارة قائمة المرضى والحالات |
+| :---: | :---: |
+| ![Patient File](https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot%20ATHAR%20CLINIC/%D9%85%D9%84%D9%81%20%D8%A7%D9%84%D9%85%D8%B1%D9%8A%D8%B61.png) | ![Patients List](https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot%20ATHAR%20CLINIC/%D8%B5%D9%81%D8%AD%D9%87%20%D8%A7%D9%84%D9%85%D8%B1%D8%B6%D9%8I.png) |
+
+| ⚙️ إعدادات النظام المتقدمة (للطبيب فقط) |
+| :---: |
+| ![System Settings](https://raw.githubusercontent.com/IbrahimAhmedOboss/athar-clinic-management-system/main/screenShot%20ATHAR%20CLINIC/%D8%A7%D8%B9%D8%AF%D8%A7%D8%AF%D8%A7%D8%AA%20%D8%A7%D9%84%D9%86%D8%B8%D8%A7%D9%85%20%D9%84%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D9%81%D9%82%D8%B7.png) |
 
 ---
 
 ### 🔍 تفاصيل وظائف الشاشات المعروضة:
 * **لوحة التحكم الرئيسية:** واجهات تفاعلية متطورة تعرض رسوماً بيانية ذكية للأرباح ومعدلات نمو أعداد المرضى شهرياً.
 * **ملفات المرضى:** صفحة متكاملة لإدارة السجلات الطبية، خطط العلاج الطبيعي، وتتبع المحفظة المالية والمدفوعات السابقة لكل حالة.
-* **شاشة المواعيد والمرشحات:** جدول مرن لتنظيم الزيارات اليومية مع إمكانية تبديل حالة الموعد ديناميكياً (انتظار ← جارٍ ← مكتمل).
+* **شاشة Mوعد والمرشحات:** جدول مرن لتنظيم الزيارات اليومية مع إمكانية تبديل حالة الموعد ديناميكياً (انتظار ← جارٍ ← مكتمل).
 * **إدارة الحسابات والتقارير:** جدول مالي مؤتمت بالكامل يوضح مستحقات الطبيب (الـ 40% المستقطعة من إجمالي الدخل) مع خيار التصدير الفوري لملفات Excel المنسقة مسبقاً.
 
 ---
-
 ## 7. إخلاء مسؤولية وحقوق الملكية (Proprietary & Closed Source Notice)
 
 ⚠️ **إشعار هام وحقوق ملكية:**
